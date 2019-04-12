@@ -2,3 +2,48 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+.top-menu .sub-menu{
+    left: initial;
+    width: initial;
+    min-width: initial;
+    margin-left: 0;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+.top-menu .sub-menu ul[data-depth="1"] > li{
+    float: none;
+    font-size: 12px;
+    width: 100%;
+    
+
+}
+
+#_desktop_logo {
+    bottom:7px;
+
+}
+
+.search-widget form {
+     top: -7px;
+    }
+    
+    #header .header-top {
+         padding-bottom: 0.25rem;
+        }
+
+
+#_desktop_top_menu .top-menu[data-depth="1"] li .collapse {
+    display:none;
+    min-height: 100%;
+}
+
+#_desktop_top_menu .top-menu[data-depth="1"] li:hover .collapse {
+    display:block;
+    position: absolute;
+    left: 220px;
+    top: 0;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: -25px;
+    
+}
