@@ -136,6 +136,10 @@
  font-color: white;
 
 }
+#header .header-nav .cart-preview.active{
+    background: #393a3a;
+
+}
 
 #header .header-nav .blockcart .header {
  color: white;
@@ -203,7 +207,7 @@ color: #7a7a7a;
 .btn-primary:active,.btn-primary:disabled:focus,.btn-primary, .btn-primary:disabled:hover,.btn-primary ,.btn-primary:disabled:hover{
     background-color: #B4CC34;
 }
-.btn-primary:hover{
+.btn-primary:hover,.btn-primary:active:hover,.btn-primary:focus{
     background-color: rgb(147, 165, 47);
 
 }
